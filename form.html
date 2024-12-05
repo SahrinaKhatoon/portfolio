@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know about helpless childern</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+               <a href="index.html"><img src="image/logo.webp"></a>
+               <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contactus.html">CONTACT</a></li>
+                     </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+    
+
+        <!---------Registration Form-->
+        <section class="Registration">
+            <div class="container">
+            <header>Registration</header>
+        
+            <form method="post" action="" name="Registration form">
+                <div class="form-first">
+                <div class="details-personal">
+                    <span class="title">Personal Details</span>
+                    
+                    <div class="fields">
+                    <div class="input-fields">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" name="Name" required>
+                    </div>
+        
+                    <div class="input-fields">
+                        <label>Date of Birth</label>
+                        <input type="date" placeholder="Enter Birth Date" name="DOB" required>
+                    </div>
+                    
+                    <div class="input-fields">
+                        <label>E-mail</label>
+                        <input type="email" placeholder="Enter your E-mail" name="E-mail" required>
+                    </div>
+        
+                    <div class="input-fields">
+                        <label>Mobile No.</label>
+                        <input type="number" placeholder="Enter your Mobile no." name="Phone" required>
+                    </div>
+        
+                    <div class="input-fields">
+                        <label>Gender</label>
+                        <select name="Gender" required>
+                        <option disabled selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    
+                    <div class="input-fields">
+                        <label>Category</label>
+                        <select name="Category" required>
+                        <option disabled selected>Select Category</option>
+                        <option value="Unreserved">Unreserved</option>
+                        <option value="OBC">OBC</option>
+                        <option value="SC">SC</option>
+                        <option value="ST">ST</option>
+                        </select>
+                    </div>
+                    </div>
+                </div>
+                <section class="Registration">
+                    <div class="container">
+                    <header>Registration</header>
+                
+                    <form method="post" action="" name="Registration form">
+                        <div class="form-first">
+                        <div class="details-personal">
+                            <span class="title">Personal Details</span>
+                            
+                            <div class="fields">
+                            <div class="input-fields">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Enter your name" name="Name" required>
+                            </div>
+                
+                            <div class="input-fields">
+                                <label>Date of Birth</label>
+                                <input type="date" placeholder="Enter Birth Date" name="DOB" required>
+                            </div>
+                            
+                            <div class="input-fields">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="Enter your E-mail" name="E-mail" required>
+                            </div>
+                
+                            <div class="input-fields">
+                                <label>Mobile No.</label>
+                                <input type="number" placeholder="Enter your Mobile no." name="Phone" required>
+                            </div>
+                
+                            <div class="input-fields">
+                                <label>Gender</label>
+                                <select name="Gender" required>
+                                <option disabled selected>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            
+                            <div class="input-fields">
+                                <label>Category</label>
+                                <select name="Category" required>
+                                <option disabled selected>Select Category</option>
+                                <option value="Unreserved">Unreserved</option>
+                                <option value="OBC">OBC</option>
+                                <option value="SC">SC</option>
+                                <option value="ST">ST</option>
+                                </select>
+                            </div>
+                            </div>
+                        </div>
+                        <button class="submit">
+                            <span class="submit">Submit</span>
+                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        </button>
+                        </div>
+            </form>
+        </section>
+
+        <!------ Footer ----->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are a catalyst for growth the poor child. With a passion for innovation <br> and a commitment to help the poor child, we're dedicated to nurturing talent, fostering creativity, <br> and shaping leaders. Join us in a journey that transcends boundaries, and together, let's create a brighter future.</p>
+            <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made By Sahrina</p>
+        </section>
+        <!--------javaScript for Toggle Menu-------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+            navLinks.style.right = "0"; 
+            }
+            function hideMenu(){
+            navLinks.style.right = "-200px"; 
+            }
+        
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyOT6RsHkE2KJa__rMrPJ4I7wz48d9qSVVAbJ8MNhDmL8TMRRTtoq68ukm9HDJaKFI8/exec'
+                    const form = document.forms['Registration form']
+                    
+                    form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => alert("Thank you! your form is submitted successfully." ))
+                        .then(() => {  window.location.reload(); })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+        
+        </script>
+    </body>
+</html>
+          
+  

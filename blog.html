@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know about helpless childern</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+               <a href="index.html"><img src="image/logo.webp"></a>
+               <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contactus.html">CONTACT</a></li>
+                     </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Blog</h1>
+        </section>
+        <!---------Blog--------->
+        <section class="blog-content">
+            <hr color="red" width="40px">
+            <h1>LATEST NEWS</h1>
+            <div class="row">
+                <div class="blog-content-col">
+                    <div class="date">
+                        <h2>June<br>12</h2>
+                    </div>
+                    <img src="image/blog_1.webp">
+                    <h3>Capitalize on low hanging fruit to identify ballpark</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque at numquam, asperiores aut praesentium facilis ratione! Voluptatibus neque dignissimos ipsa atque veniam sint omnis in blanditiis, nemo fugit animi assumenda.</p>
+    
+                </div>
+                <div class="blog-content-col">
+                    <div class="date1">
+                        <h2>July<br>07</h2>
+                    </div>
+                    <img src="image/blog_2.webp">
+                    <h3>Capitalize on low hanging fruit to identify ballpark</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque at numquam, asperiores aut praesentium facilis ratione! Voluptatibus neque dignissimos ipsa atque veniam sint omnis in blanditiis, nemo fugit animi assumenda.</p>
+                </div>
+                <div class="blog-content-col">
+                    <div class="date2">
+                        <h2>July<br>30</h2>
+                    </div>
+                    <img src="image/blog_3.webp">
+                    <h3>Capitalize on low hanging fruit to identify ballpark</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque at numquam, asperiores aut praesentium facilis ratione! Voluptatibus neque dignissimos ipsa atque veniam sint omnis in blanditiis, nemo fugit animi assumenda.</p>
+                </div>
+            </div>
+        </section>
+      <!----------Meet Our Team------->
+        <section class="team">
+            <h1>Meet Our Team</h1>
+            <div class="row">
+                <div class="team-col">
+                    <img src="image/person1.webp">
+                    <h3>Mr JOHN</h3>
+                    <P>Attorneys</P>
+                </div>
+                <div class="team-col">
+                    <img src="image/person2.webp">
+                    <h3>TURNER</h3>
+                    <P>Attorneys</P>
+                </div>
+                <div class="team-col">
+                    <img src="image/person3.webp">
+                    <h3>GILBERT WILLIAMS</h3>
+                    <P>Attorneys</P>
+                </div>
+                <div class="team-col">
+                    <img src="image/person4.webp">
+                    <h3>ANDERSON JHON</h3>
+                    <P>Attorneys</P>
+                </div>
+            </div>
+        </section>
+        <!------ Footer ----->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are a catalyst for growth the poor child. With a passion for innovation <br> and a commitment to help the poor child, we're dedicated to nurturing talent, fostering creativity, <br> and shaping leaders. Join us in a journey that transcends boundaries, and together, let's create a brighter future.</p>
+            <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made By Sahrina</p>
+        </section>
+        <!--------javaScript for Toggle Menu-------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+            navLinks.style.right = "0"; 
+            }
+            function hideMenu(){
+            navLinks.style.right = "-200px"; 
+            }
+        
+        </script>
+    </body>
+</html>
